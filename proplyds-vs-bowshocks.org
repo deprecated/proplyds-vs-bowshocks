@@ -1,0 +1,32 @@
+* Proplyds vs bow shocks vs EGGs vs globulettes
+
++ Many papers get confused between these different categories
+
+  + globulette :: photo-evaporating pre-stellar cloud core
+
+  + EGG :: photo-evaporating globule with embedded protostar
+
+  + proplyd :: photo-evaporating circumstellar disk
+
+  + bow shock :: star-stream interaction
+
+
+
+* Shape of proplyd vd bow shocks
++ This was my initial inspiration
++ Yusef-Zadeh:2015a claim "proplyds" in Galactic center
+  + but they look too triangular, more like bow shocks
+
+* Proplyd-like objects in other regions
+
+** Carina
+Has possible bona fide proplyds, plus a bunch of EGGs, and a load of globulettes
+
+** Cygnus
++ Wright:2012a
+  + Bunch of objects of size 5e4 to 1e5 AU
+  + No way are they proplyds, since that would require a disk with radius 1e4 AU
+  + They point out that the Cygnus, NGC 3603, and Orion proplyds lie on a linear size vs distance from ionizing stars relation
+    + But this is completely bogus: the ionizing luminosities are very different, and the relation is not linear within Orion
+
+
