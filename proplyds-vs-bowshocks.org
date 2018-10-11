@@ -12,10 +12,25 @@
 
 
 
-* Shape of proplyd vd bow shocks
+* Shape of proplyd vs bow shocks
 + This was my initial inspiration
 + Yusef-Zadeh:2015a claim "proplyds" in Galactic center
   + but they look too triangular, more like bow shocks
++ Measure planitude and alatude for proplyds, to compare with values for bow shocks
++ Come up with some way of measuring the shape when you don't know where the star is
+  + One possibility is to use the center of curvature
+    + Either the center itself, or a point intermediate between there and the apex
+    + So that would be assuming a value for the planitude
+  + Second possibility is to use the width of the brightness distribution to set a scale
+    + We could fit a 2d Gaussian to the brightness map
+    + This would work best for relatively fat shells, where the curvature wouldn't matter so much
+    + Or we could do something sophisticated, such as fit a curved 2D gaussian
+      + Product of a gaussian in R and a gaussian in \theta
+      + A * G(\theta; \theta_0, \sigma_\theta) * G(R; R_0, \sigma_R)
+      + Where R and \theta are with respect to a center of curvature (x_0, y_0)
+      + So that is 7 parameters in total
+        + (we could make them skew Gaussians if we wanted to go crazy)
+        + (and we could also make \sigma_R a function of \theta to allow flaring, something like 1 + a \theta^2)
 
 * Proplyd-like objects in other regions
 
